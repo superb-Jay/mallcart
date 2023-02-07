@@ -1,9 +1,7 @@
 package com.example.mallcart.entity;
 
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
@@ -11,7 +9,9 @@ import javax.persistence.*;
 @Entity
 @Table(name ="prac_cart")
 @Getter
+@Setter
 @RequiredArgsConstructor
+@AllArgsConstructor
 
 public class Cart {
 
